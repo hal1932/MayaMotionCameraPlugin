@@ -35,7 +35,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\..\..\..\maya\2014-x64\plug-ins\</OutputPath>
+    <OutputPath>..\..\..\..\maya\2015-x64\plug-ins\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -53,11 +53,8 @@
     <PlatformTarget>x64</PlatformTarget>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="openmayacpp">
-      <HintPath>..\..\..\..\..\..\Program Files\Autodesk\Maya2014\bin\openmayacpp.dll</HintPath>
-    </Reference>
     <Reference Include="openmayacs">
-      <HintPath>..\..\..\..\..\..\Program Files\Autodesk\Maya2014\bin\openmayacs.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\Program Files\Autodesk\Maya2015\bin\openmayacs.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
